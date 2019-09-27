@@ -1,13 +1,13 @@
 Problem 1
 
-A firm wants to understand why some of its best employees are leaving the company. The firm also wants to predict the employees who might leave next, understand the reasons as to why and what should they do to retain them. Please answer the following questions using machine learning techniques by referring to the attached synthetic data set that provides some information on 1470 employees:
+A firm wants to understand why some of its best employees are leaving the company. The firm also wants to predict the employees who might leave next, understand the reasons as to why and what should they do to retain them. 
 
 (i) Identify the reasons that lead to employees leaving the firm. (ii) Predicts which employees (from the data set) might leave next.
 
-(iii) Recommend which employees from point (ii) above should be retained? Output: Submission should contain the Model/Code and analysis of the problem
+(iii) Recommend which employees from point (ii) above should be retained? 
 
 
-We need to detect the importance of features in the data that leads to employees attrition.
+Answer: We need to detect the importance of features in the data that leads to employees attrition.
 This is a binary classification problem. Classes are ‘yes’ or ‘no’ which means if the employee
 will leave the company or not. The data set is imbalanced and the samples with ‘yes’ as the
 label are much less than the samples with ‘no’ as the label. After removing null values and
@@ -43,7 +43,7 @@ Please answer the following questions based on your understanding and experience
 
 (ii)  You are tasked to classify a rare-occurring class; which of the two class of models would you choose and why: Bayesian models or Regression-based models?
 
-When a model works too well on a data set, it cannot predict well on unseen data. This
+Answer: When a model works too well on a data set, it cannot predict well on unseen data. This
 problem is called overfitting and it happens when a model learns all noise in the training data.
 This problem affects model performance in generalizing on test data. Reasons for overfitting
 can be a complex target function (that is customized for all details in the train set), lack of
